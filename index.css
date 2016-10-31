@@ -31,9 +31,9 @@
 	position:absolute;
 	right:100px;
 	top:100px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Itim', cursive;
 	width:50%;
-	font-size: 35px;
+	font-size: 40px;
 
 }
 
@@ -61,7 +61,7 @@
 	position:absolute;
 	right:100px;
 	top:100px;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Itim', cursive;
 	width:50%;
 	font-size: 35px;
 
@@ -125,18 +125,7 @@
 }
 
 
-.navbar-fixed-top {
-        padding: 25px 0;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }
-#navibar {
-	width:100%;
-	text-align:center;
-    background-color: #333333;
-    color:#00cc33;
-}
+
 .item{
 	display: inline-block;
 	padding: 15px;
@@ -155,6 +144,7 @@ a:hover{
 #head1	{
 	padding: 15px;
 	font-size : 50px;
+	font-family: 'Itim', cursive;
 	color:white;
 	margin:0;
 }
@@ -168,15 +158,22 @@ a:hover{
     height: 300px;
     width: 400px;
     padding: 5px;
+    font-family: 'Itim', cursive;
+    margin: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
 }
 .png {
 	padding: 5px 15px;
 	align: center;
+	height: 100px;
+	width: 100px;
 }
 .img-circle{
     border-radius: 50%;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     /* Disable GrayScale Effect */
       filter: none;
     -webkit-filter: grayscale(0);
@@ -188,10 +185,9 @@ a:hover{
     filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
     -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
-.MemberDetails{
-    margin: 10px;
-    display: inline-block;
-    text-align: center;
+.quotes{
+	font-size: 40px;
+	font-family: 'Delius Unicase', cursive;
 }
 
 
