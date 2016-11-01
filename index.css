@@ -186,8 +186,10 @@ a:hover{
     -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 .quotes{
+	position: relative;
 	font-size: 40px;
 	font-family: 'Delius Unicase', cursive;
+	bottom: 10px;
 }
 
 
